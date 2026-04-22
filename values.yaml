@@ -68,7 +68,7 @@ ingress:
   hosts:
     - host: ""
       paths:
-        - path: /maturity-assessments/assessment
+        - path: /
           pathType: Prefix
   tls: []
   #  - secretName: chart-example-tls
